@@ -1,0 +1,31 @@
+$fz: 18px;
+$text-nav: #739BB8; 
+$text-head: #fff;
+$head-background: url(../img/0.jpg);
+$card1: url(../img/1.jpg);
+$card2: url(../img/2.jpg);
+$card3: url(../img/3.jpg);
+$fw: 100;
+$tcentr: center;
+$tsmall: 12px;
+$coltextmainh2: #9EA6AB;
+$colreviws: #8D6F79;
+$colreviewsh2: #CBA2B0;
+$cobackgrreviws: rgb(193, 161, 177);
+$colform: #8695A2;
+$colborderselect: #8695A2;
+$colbackgrselect: #8695A2;
+$colorselect: #7D8897;
+$colbackgfooter: #3D5585;
+$colbuttonfooter:#0A275E;
+$tcolfooter: #578DF2;
+$tcolfooterdark: #0A275E;
+
+$font-sizes: ("small": 12px, "normal": 18px, "large": 24px);
+@debug map-get($font-sizes, "small");
+
+
+
+
+
+ 

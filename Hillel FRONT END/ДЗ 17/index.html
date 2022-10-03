@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta
+  name="viewport"
+  content="width=
+, initial-scale=1.0"
+/>
+<title>Document</title>
+<style>
+  .btn {
+    position: relative;
+    background-color: rgb(237, 170, 170);
+    border: none;
+    color: rgb(8, 8, 8);
+    padding: 30px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+  }
+  .btn span {
+    position: absolute;
+    border-radius: 50%;
+    /* To make it round */
+    background-color: rgb(241, 214, 214);
+
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    /* for positioning */
+    margin-left: -50px;
+
+    animation: ripple 3s;
+    opacity: 0;
+  }
+
+  @keyframes ripple {
+    from {
+      opacity: 1;
+      transform: scale(0);
+      background-color: rgb(125, 19, 19);
+    }
+
+    to {
+      opacity: 0;
+      transform: scale(10);
+      background-color: rgb(12, 14, 14);
+    }
+  }
+</style>
+</head>
+<body>
+<button class="btn">My awesome button</button>
+
+<script src="./index.js"></script>
+</body>
+</html>

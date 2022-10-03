@@ -1,0 +1,36 @@
+main{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.input_wrap{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.enter_nickname{
+   padding: 0.5% 0.5%;
+}
+.input_orange_wrap{
+    padding-bottom: 2%;  
+}
+.btn{
+    margin-right: 1%;
+    background: rgb(230, 200, 31);
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    height: 30px;
+    cursor: pointer;
+}
+.blue_btn{
+    width: 200px;
+    height: 200px;
+    outline-style:initial;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 2%;
+    color: black;
+    font-size: large;
+    background: rgb(146, 174, 240);
+    cursor: pointer;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Table</title>
+</head>
+<body>
+<div class="wrap">
+    <!-- table 1 -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="table-head">Name <span class="arrow" >▼</span></th>
+                <th class="table-head">Date</th>
+                <th class="table-head"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first-column">File.pdf</td>
+                <td class="second-column"> 3 mins ago</td>
+                <td class="dots"><span class="dots-grey">•••</span></td>
+            </tr>
+            <tr>
+                <td class="first-column">File.pdf</td>
+                <td class="second-column"> Yesterday</td>
+                <td class="dots"><span class="dots-grey">•••</span></td>
+            </tr>
+            <tr>
+                <td class="first-column">File.pdf</td>
+                <td class="second-column"> June 1st, 2019</td>
+                <td class="dots"><span class="dots-grey">•••</span></td>
+        
+            </tr>
+        </tbody>
+    </table>
+    <!-- table 2 -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="table-head">
+                <form action="#">
+                <input class="checkbox" type="checkbox" id="name" placeholder="Name" value="File" checked >
+                <label for="Name" id="name">Name</label><span class="arrow" >▼</span>
+                </form>
+                </th>
+                <th class="table-head">Date</th>
+                <th class="table-head"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first-column">
+                    <form action="#">
+                        <input class="checkbox" type="checkbox" id="name" placeholder="File.pdf" value="File">
+                        <label for="Name" id="name">File.pdf</label>
+                    </form>
+                </td>
+                <td class="second-column"> 3 mins ago</td>
+                <td class="dots"><span class="dots-white">•••</span></td>
+            </tr>
+            <tr>
+                <td class="first-column">
+                    <form action="#">
+                        <input class="checkbox" type="checkbox" id="name" placeholder="File.pdf" value="File" checked>
+                        <label for="Name" id="name">File.pdf</label>
+                    </form>
+                </td>
+                <td class="second-column"> Yesterday</td>
+                <td class="dots"><span class="dots-white">•••</span></td>
+            </tr>
+            <tr>
+                <td class="first-column">
+                    <form action="#">
+                        <input class="checkbox" type="checkbox" id="name" placeholder="File.pdf" value="File">
+                        <label for="Name" id="name">File.pdf</label>
+                    </form>
+                </td>
+                <td class="second-column"> June 1st, 2019</td>
+                <td class="dots"><span class="dots-white">•••</span></td>
+        
+            </tr>
+        </tbody>
+    </table>
+    <!-- table 3 -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="table-head">Name <span class="arrow" >▼</span></th>
+                <th class="table-head">Date</th>
+                <th class="table-head">
+                    <form action="#">  
+                <input class="search" type="text" name="search" placeholder="Search">
+                    </form>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first-column">
+                   <img class="folder" src="./img/folder.png" alt="folder"> 
+                   File.pdf </td>
+                <td class="second-column"> 3 mins ago</td>
+                <td class="dots"><span class="dots-white">•••</span></td>
+            </tr>
+            <tr>
+                <td class="first-column ">
+                    <img class="folder" src="./img/folder.png" alt="folder"> 
+                    File.pdf </td>
+                <td class="second-column"> Yesterday</td>
+                <td class="dots"><span class="dots-white">•••</span></td>
+            </tr>
+            <tr>
+                <td class="first-column">
+                   <img class="folder" src="./img/folder.png" alt="folder"> 
+                   File.pdf </td>
+                <td class="second-column"> June 1st, 2019</td>
+                <td class="dots"><span class="dots-white">•••</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

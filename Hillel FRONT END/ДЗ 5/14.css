@@ -1,0 +1,13 @@
+table{
+    font-size: large;
+    border-collapse: collapse;
+    border: 2px solid hwb(0 4% 96%);  
+}
+td{
+    padding: 5px 5px 5px 5px; 
+    border: 2px solid hwb(0 4% 96%);
+}
+caption{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

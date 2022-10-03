@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1440px;
+    height: 850px;
+    margin: 0 auto;
+}
+.wrapper-swords{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background-color: #3b1d1d;
+}
+.swords{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 30%;
+    cursor: pointer;
+}
+.first-swords{
+    opacity: 100%;
+    margin: 0 0 30px 30px;
+}
+.second-swords{
+    left: -30px;
+    margin: 0 0 30px 0;
+}
+.third-swords{
+    margin: 0 0 0 30px;
+}
+.swords:hover>.first-swords{
+    animation: first-swords 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.swords:hover>.second-swords{
+    animation: second-swords 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.swords:hover>.third-swords{
+    animation: third-swords 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.first-swords,
+.second-swords,
+.third-swords{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 4px;
+    background: #ffffff; 
+}
+.first-swords::before ,
+.second-swords::before ,
+.third-swords::before{
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #ffffff;
+    position: relative;
+}
+.first-swords::before ,
+.third-swords::before{
+    left: -30px;
+}
+.second-swords::before{
+    left: 90px;
+   
+}
+@keyframes first-swords{
+    0% {
+        top: 0;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 0;
+    }
+}
+@keyframes second-swords{
+    0% {
+        transform: rotate(0);
+        box-shadow: none;
+        top: 0;
+    }
+    100% {
+        transform: rotate(45deg);
+        box-shadow: inset 2px 0 5px rgba(255, 41, 41, 0.342), 0 0 10px #ff0000;
+        top: 0;
+    
+    }
+}
+@keyframes third-swords{
+    0% {
+        transform: rotate(0);
+        box-shadow: none;
+        top: 0;
+    }
+    100% {
+        transform: rotate(-45deg);
+        box-shadow: inset 2px 0 5px rgba(102, 250, 4, 0.623), 0 0 10px #008000;
+        top: -35px;
+    }
+}
+
+
+.balls{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.ball{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.ball:nth-child(1) {
+    background: #3c3f66; 
+  }
+  
+  .ball:nth-child(2) {
+    background: linear-gradient(to right, #3c3f66, #5a577e);
+    
+  }
+  
+  .ball:nth-child(3) {
+    background: linear-gradient(to right, #5a577e, #815a6a);
+  }
+  
+  .ball:nth-child(4) {
+    background: linear-gradient(to right, #815a6a, #944846);
+  }
+  
+  .ball:nth-child(5) {
+    background: linear-gradient(to right, #944846, #cc304a);
+  }
+  
+  .ball:nth-child(6) {
+    background: linear-gradient(to right, #cc304a, #d82c2c);
+  }
+  
+  .ball:nth-child(7) {
+    background: #d82c2c;
+  }
+  .first-balls{
+    background: #3c3f66;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transform-origin: center -140px;
+    animation: first-balls 1s infinite ease-in-out;
+  }
+  .last-balls{
+    background: crimson;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transform-origin: center -140px;
+    animation: last-balls 1s infinite ease-in-out;
+  }
+
+@keyframes first-balls{
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+      transform: rotate(0);
+  }
+    75% {
+        transform: rotate(50deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+@keyframes last-balls{
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(-50deg);
+    }
+    50% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+.shadow-all{
+    display: flex;
+    justify-content: center;
+}
+.shadow{
+    width: 60px;
+    height: 15px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(206, 204, 195, 0.527), #95969b2a);
+    box-shadow: inset 0 0 2px 2px rgba(252, 252, 252, 0.466)
+}
+.first-shadow{
+    box-shadow: inset 0 0 2px 2px rgba(252, 252, 252, 0.466);
+    width : 60px;
+    height: 15px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(206, 204, 195, 0.527), #95969b2a);
+    animation: first-shadow 1s infinite ease-in-out;
+    position: relative;
+}
+.last-shadow{
+    box-shadow: inset 0 0 2px 2px rgba(252, 252, 252, 0.466);
+    width : 60px;
+    height: 15px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(206, 204, 195, 0.527), #95969b2a);
+    animation: last-shadow 1s infinite ease-in-out;
+    position: relative;
+}
+
+
+
+@keyframes first-shadow {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 0;
+    }
+    75% {
+        left: -150px;
+    }
+    100% {
+        left: 0;
+    }
+  }
+  
+  @keyframes last-shadow {
+    0% {
+        right: 0;
+    }
+    25% {
+        right: -150px;
+    }
+    50% {
+        right: 0;
+    }
+    100% {
+        right: 0;
+    }
+  }
+  
