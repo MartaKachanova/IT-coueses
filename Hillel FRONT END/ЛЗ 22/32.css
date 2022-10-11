@@ -1,0 +1,29 @@
+body{
+    max-width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+}
+.img-wrap{
+    position: relative;
+    flex: 0 1 calc(20% -10px);
+    height: 150px;
+    margin: 7px;
+    background-color: palevioletred;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 5px solid rgb(105, 14, 73);
+    transition: border-color .2s;
+}
+.img-wrap:focus{
+    border-color: rgb(48, 35, 239);
+}
+.focus{
+    border:  5px solid rgb(188, 224, 69);
+}
