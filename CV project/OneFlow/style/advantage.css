@@ -1,0 +1,62 @@
+.advantage {
+  background: url(../img/advantage_wrap.jpg);
+  background-size: cover;
+  height: 2532px;
+}
+.advantage_title {
+  padding-top: 122px;
+  padding-left: 305px;
+  padding-right: 305px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  color: #013a4c;
+}
+.advantage_card {
+  width: 576px;
+  height: 373px;
+}
+.advantage_card_forget {
+  width: 624px;
+  height: 373px;
+  margin-left: 768px;
+  margin-top: 153px;
+}
+.advantage_card_data {
+  margin-left: 144px;
+  width: 624px;
+  height: 397px;
+}
+.advantage_card_control {
+  width: 574px;
+  height: 373px;
+  margin-left: 720px;
+}
+.advantage_card_icon {
+  width: 109px;
+  height: 109px;
+  margin-bottom: 15px;
+}
+.advantage_card_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  letter-spacing: 0.4px;
+  color: #013a4c;
+  margin-bottom: 34px;
+}
+.advantage_card_text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #013a4c;
+  margin-bottom: 17px;
+}

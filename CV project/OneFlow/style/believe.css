@@ -1,0 +1,31 @@
+.believe {
+  background: url("../img/believe.jpg");
+  background-size: cover;
+  height: 850px;
+}
+.believe_content {
+  width: 665.3px;
+  height: 248px;
+  padding-top: 295px;
+  padding-left: 144px;
+}
+.believe_content_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 73px;
+  line-height: 78px;
+  letter-spacing: 2px;
+  color: #f2dce4;
+  padding-bottom: 31px;
+}
+.believe_content_text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  padding-bottom: 25px;
+}

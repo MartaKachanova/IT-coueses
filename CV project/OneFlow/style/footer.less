@@ -1,0 +1,125 @@
+@import "./variables.less";
+
+.footer {
+  background: @blue;
+  padding-bottom: 105px;
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 1152px;
+    padding-left: 144px;
+    padding-top: 64px;
+    &_contacts {
+      display: block;
+      width: 182px;
+      text-decoration: none;
+      margin-right: 191.75px;
+      &_logo {
+        width: 140px;
+        height: 31px;
+      }
+      &_adress {
+        font-family: @textFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: @white;
+        margin-top: 67px;
+      }
+      &_social {
+        display: flex;
+        &_icon {
+          width: 22.5px;
+          height: 18.61px;
+        }
+      }
+    }
+  }
+  &_main {
+    &_title {
+      font-family: @textFontFamily;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: @white;
+      text-decoration: none;
+      margin-bottom: 13px;
+    }
+    &_content {
+      font-family: @textFontFamily;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #99b0b7;
+      text-decoration: none;
+      margin-bottom: 13px;
+    }
+    li {
+      margin-bottom: 13px;
+    }
+  }
+  &_line {
+    display: block;
+    margin-left: 144px;
+    margin-top: 71px;
+    width: 1152px;
+    height: 1px;
+    background: #346170;
+  }
+  &_flow {
+    display: flex;
+    padding-left: 144px;
+    &_content {
+      padding-top: 48px;
+      width: 367px;
+      margin-right: 48px;
+      h1 {
+        font-family: @titleFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color: @white;
+        margin-bottom: 11px;
+      }
+      p {
+        font-family: @textFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: @white;
+      }
+    }
+    &_btn {
+      padding-top: 89px;
+    }
+  }
+  &_login {
+    padding-left: 144px;
+    padding-top: 17px;
+    &_content {
+      display: flex;
+      flex-direction: row;
+      &_text {
+        margin-right: 32px;
+        font-family: @textFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        color: #99b0b7;
+        text-decoration: none;
+      }
+      &_img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

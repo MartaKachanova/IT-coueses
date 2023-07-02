@@ -27,7 +27,8 @@ document.onkeydown = keyHandler;
 
 async function getPhotos(page = 1) {
   const request = await fetch(
-    `https://api.flickr.com/services/rest/?method=flickr.favorites.getPublicList&api_key=${API_KEY}&user_id=${USER_ID}&format=json&nojsoncallback=1&per_page=${
+    `https://api.flickr.com/services/rest/?method=flickr.favorites.getPublicList&api_key=${API_KEY}
+    &user_id=${USER_ID}&format=json&nojsoncallback=1&per_page=${
       firstLoad ? PER_PAGE : 40
     }&extras=url_q&page=${page}`
   );

@@ -1,0 +1,147 @@
+@import "./variables.less";
+
+.footer {
+  margin-top: -20px;
+  width: 100%;
+  height: 333px;
+  background: #0b0c0d;
+  &_logo {
+    margin-bottom: 177px;
+    margin-top: 47px;
+    width: 195px;
+  }
+  &_phone {
+    font-family: @titleFontFamily;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #35c66b;
+    text-decoration: none;
+  }
+  &_main {
+    display: flex;
+    justify-content: space-around;
+    &_list {
+      margin-top: 47px;
+      li {
+        margin-bottom: 8px;
+      }
+      &_link {
+        text-decoration: none;
+        font-family: @titleFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        color: rgba(187, 179, 179, 0.43);
+      }
+    }
+  }
+  &_instagram {
+    &_btn {
+      transform: rotate(270deg);
+      margin-bottom: 128px;
+      display: block;
+      background: #101010;
+      width: 84px;
+      height: 84px;
+      border-radius: 19.1685px;
+      border-color: #35c66b;
+    }
+    &_img {
+      margin-left: 30px;
+    }
+    &_circle {
+      width: 88px;
+      height: 73px;
+      background: linear-gradient(
+        267.2deg,
+        rgba(35, 114, 73, 0.11) 3.05%,
+        rgba(53, 198, 107, 0.146) 40.73%
+      );
+      filter: blur(72.3125px);
+      position: absolute;
+      margin-top: -70px;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer {
+    margin-left: 250px;
+    margin-top: 600px;
+    background: none;
+    margin-bottom: 100px;
+    &_logo {
+      margin-bottom: 250px;
+    }
+    &_main {
+      margin-top: -300px;
+      margin-left: 400px;
+    }
+    &_instagram {
+      &_btn {
+        margin-top: -400px;
+        margin-left: 700px;
+      }
+      &_img {
+        margin-top: 50px;
+        margin-left: 750px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  .footer {
+    margin-left: 250px;
+    margin-top: 600px;
+    &_logo {
+      margin-bottom: 250px;
+    }
+    &_main {
+      margin-top: -300px;
+      margin-left: 400px;
+    }
+    &_instagram {
+      &_btn {
+        margin-top: -400px;
+        margin-left: 700px;
+      }
+      &_img {
+        margin-top: 50px;
+        margin-left: 750px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .footer {
+    margin-left: 250px;
+    margin-top: 600px;
+    &_logo {
+      margin-bottom: 250px;
+    }
+    &_main {
+      margin-top: -300px;
+      margin-left: 400px;
+    }
+    &_instagram {
+      &_btn {
+        margin-top: -400px;
+        margin-left: 700px;
+      }
+      &_img {
+        margin-top: 50px;
+        margin-left: 750px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 779px) {
+}
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+}
+@media screen and (min-width: 1200px) and (max-width: 1681px) {
+}

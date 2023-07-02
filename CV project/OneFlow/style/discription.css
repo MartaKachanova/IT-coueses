@@ -1,0 +1,157 @@
+.discription {
+  height: 1650px;
+  background: #013a4c;
+}
+.discription_headline {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  padding-top: 80px;
+}
+.discription_company {
+  padding-top: 33px;
+  display: flex;
+  justify-content: center;
+}
+.discription_company li {
+  margin-right: 32px;
+  margin-bottom: 104px;
+}
+.discription_company_apotease {
+  background-size: cover;
+  height: 27px;
+  width: 95px;
+}
+.discription_company_tele {
+  background-size: cover;
+  height: 66px;
+  width: 95px;
+  margin-top: -9px;
+}
+.discription_company_dagens {
+  background-size: cover;
+  height: 18px;
+  width: 95px;
+}
+.discription_company_dormacaba {
+  background-size: cover;
+  height: 11px;
+  width: 95px;
+}
+.discription_company_experis {
+  background-size: cover;
+  height: 35px;
+  width: 95px;
+}
+.discription_company_newsec {
+  background-size: cover;
+  height: 48px;
+  width: 95px;
+}
+.discription_company_system {
+  background-size: cover;
+  height: 54px;
+  width: 95px;
+}
+.discription_wrap {
+  display: flex;
+  padding-left: 144px;
+  height: 507px;
+  background: #013a4c;
+}
+.discription_content {
+  width: 624px;
+}
+.discription_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 0.4px;
+  color: #f2dce4;
+  padding-bottom: 38px;
+  width: 402px;
+}
+.discription_text {
+  padding-bottom: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  color: #ffffff;
+  width: 528px;
+}
+.discription_photo {
+  padding-left: 110px;
+  width: 501px;
+  height: 501px;
+}
+.discription_colaborate {
+  margin: 128px 144px;
+  width: 1152px;
+  height: 600px;
+  background: #d3e8f4;
+  border-radius: 8px;
+}
+.discription_colaborate_icons {
+  width: 1152px;
+  height: 121px;
+}
+.discription_colaborate_wrap {
+  display: flex;
+  height: 451px;
+}
+.discription_colaborate_content {
+  padding-left: 96px;
+}
+.discription_colaborate_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 80px;
+  letter-spacing: 0.7px;
+  color: #013a4c;
+  padding-top: 37.03px;
+}
+.discription_colaborate_text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  color: #013a4c;
+  width: 545px;
+  padding-bottom: 56px;
+}
+.discription_colaborate_tick {
+  margin-bottom: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #013a4c;
+}
+.discription_colaborate_photo {
+  margin-left: 91px;
+  height: 420px;
+  width: 420px;
+  padding-top: 60px;
+}
+.tick {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.border_line {
+  border-width: 1152px;
+  background: #94b4c2;
+  height: 1px;
+  margin-top: -3px;
+}

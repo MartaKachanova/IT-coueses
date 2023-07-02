@@ -1,0 +1,206 @@
+.more_btn_arrow {
+  display: none;
+}
+.more_btn_arrow_btn {
+  display: none;
+}
+.more_btn_arrow_buy_green {
+  display: none;
+}
+.more_card {
+  margin-left: 50px;
+  border-radius: 30px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+.more_card_title {
+  display: block;
+  width: 40%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 108.5%;
+  color: #ffffff;
+  margin-left: 29px;
+  padding-top: 44px;
+}
+.more_card_title_small {
+  display: block;
+  width: 60%;
+}
+.more_card_title_small_last {
+  display: block;
+  width: 294px;
+}
+.more_card_price {
+  width: 615px;
+  height: 260px;
+  background: url(../img/more_card_price.png);
+  background-size: 615px 260px;
+  background-repeat: no-repeat;
+}
+.more_card_tour {
+  width: 615px;
+  height: 260px;
+  background: url(../img/more_card_tour.png);
+  background-size: 615px 260px;
+  background-repeat: no-repeat;
+}
+.more_card_coffee {
+  background: url(../img/more_card_coffee.png);
+  width: 402px;
+  height: 260px;
+  background-size: 402px 260px;
+  background-repeat: no-repeat;
+}
+.more_card_instagram {
+  width: 402px;
+  height: 260px;
+  background: url(../img/more_card_instagram.png);
+  background-size: 402px 260px;
+  background-repeat: no-repeat;
+}
+.more_card_choose {
+  width: 402px;
+  height: 260px;
+  background: url(../img/more_card_choose.png);
+  background-size: 402px 260px;
+  background-repeat: no-repeat;
+}
+.more_card_btn {
+  margin-left: 27px;
+  margin-top: 49px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .more {
+    margin-left: 100px;
+  }
+  .more_btn_arrow {
+    display: block;
+    padding-left: 50px;
+    position: absolute;
+    margin-left: 20px;
+  }
+  .more_btn_arrow_btn {
+    display: block;
+    background: #101010;
+    width: 55px;
+    height: 55px;
+    border-radius: 19.1685px;
+    border-color: #35c66b;
+    margin-top: 250px;
+  }
+  .more_btn_arrow_buy_green {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 169px;
+    margin-top: -100px;
+    margin-left: -90px;
+    filter: blur(50.3806px);
+  }
+  .more_card_price {
+    margin-left: 150px;
+  }
+  .more_card_tour {
+    margin-left: 150px;
+  }
+  .more_card_coffee {
+    display: none;
+  }
+  .more_card_instagram {
+    display: none;
+  }
+  .more_card_choose {
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  .more {
+    margin-left: 100px;
+  }
+  .more_btn_arrow {
+    display: block;
+    padding-left: 50px;
+    position: absolute;
+    margin-left: 20px;
+  }
+  .more_btn_arrow_btn {
+    display: block;
+    background: #101010;
+    width: 55px;
+    height: 55px;
+    border-radius: 19.1685px;
+    border-color: #35c66b;
+    margin-top: 250px;
+  }
+  .more_btn_arrow_buy_green {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 169px;
+    margin-top: -100px;
+    margin-left: -90px;
+    filter: blur(50.3806px);
+  }
+  .more_card_price {
+    margin-left: 150px;
+  }
+  .more_card_tour {
+    margin-left: 150px;
+  }
+  .more_card_coffee {
+    display: none;
+  }
+  .more_card_instagram {
+    display: none;
+  }
+  .more_card_choose {
+    display: none;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .more {
+    margin-left: 100px;
+  }
+  .more_btn_arrow {
+    display: block;
+    padding-left: 50px;
+    position: absolute;
+    margin-left: 20px;
+  }
+  .more_btn_arrow_btn {
+    display: block;
+    background: #101010;
+    width: 55px;
+    height: 55px;
+    border-radius: 19.1685px;
+    border-color: #35c66b;
+    margin-top: 250px;
+  }
+  .more_btn_arrow_buy_green {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 169px;
+    margin-top: -100px;
+    margin-left: -90px;
+    filter: blur(50.3806px);
+  }
+  .more_card_price {
+    margin-left: 150px;
+  }
+  .more_card_tour {
+    margin-left: 150px;
+  }
+  .more_card_coffee {
+    display: none;
+  }
+  .more_card_instagram {
+    display: none;
+  }
+  .more_card_choose {
+    display: none;
+  }
+}

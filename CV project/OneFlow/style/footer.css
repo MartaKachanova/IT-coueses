@@ -1,0 +1,121 @@
+.footer {
+  background: #013a4c;
+  padding-bottom: 105px;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  width: 1152px;
+  padding-left: 144px;
+  padding-top: 64px;
+}
+.footer_content_contacts {
+  display: block;
+  width: 182px;
+  text-decoration: none;
+  margin-right: 191.75px;
+}
+.footer_content_contacts_logo {
+  width: 140px;
+  height: 31px;
+}
+.footer_content_contacts_adress {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 67px;
+}
+.footer_content_contacts_social {
+  display: flex;
+}
+.footer_content_contacts_social_icon {
+  width: 22.5px;
+  height: 18.61px;
+}
+.footer_main_title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 13px;
+}
+.footer_main_content {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #99b0b7;
+  text-decoration: none;
+  margin-bottom: 13px;
+}
+.footer_main li {
+  margin-bottom: 13px;
+}
+.footer_line {
+  display: block;
+  margin-left: 144px;
+  margin-top: 71px;
+  width: 1152px;
+  height: 1px;
+  background: #346170;
+}
+.footer_flow {
+  display: flex;
+  padding-left: 144px;
+}
+.footer_flow_content {
+  padding-top: 48px;
+  width: 367px;
+  margin-right: 48px;
+}
+.footer_flow_content h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  margin-bottom: 11px;
+}
+.footer_flow_content p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.footer_flow_btn {
+  padding-top: 89px;
+}
+.footer_login {
+  padding-left: 144px;
+  padding-top: 17px;
+}
+.footer_login_content {
+  display: flex;
+  flex-direction: row;
+}
+.footer_login_content_text {
+  margin-right: 32px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #99b0b7;
+  text-decoration: none;
+}
+.footer_login_content_img {
+  width: 20px;
+  height: 20px;
+}

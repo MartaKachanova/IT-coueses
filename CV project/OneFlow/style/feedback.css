@@ -1,0 +1,81 @@
+.feedback {
+  margin-bottom: 263px;
+}
+.feedback_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 54px;
+  letter-spacing: 0.4px;
+  color: #013a4c;
+  margin-top: 127px;
+  padding-left: 144px;
+}
+.feedback_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 14px;
+  padding-left: 144px;
+  padding-top: 57px;
+}
+.feedback_cards_card {
+  width: 375px;
+  height: 446px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #013a4c;
+  font-size: 16px;
+  line-height: 22px;
+  border: 1px solid #d6dfe2;
+  border-radius: 8px;
+  padding-left: 33px;
+}
+.feedback_cards_card_text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #013a4c;
+  margin-top: 66px;
+  width: 308px;
+  padding-bottom: 18px;
+}
+.feedback_cards_card_less_height {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #89285b;
+  padding-bottom: 75px;
+}
+.feedback_cards_card_more_height {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #89285b;
+  padding-bottom: 99px;
+}
+.feedback_photo {
+  display: flex;
+}
+.feedback_photo img {
+  width: 48px;
+  height: 48px;
+  padding-right: 16px;
+}
+.feedback_photo_text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #013a4c;
+}

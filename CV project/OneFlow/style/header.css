@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto";
+  background: #ffffff;
+  padding: 30px 26px 30px 48px;
+}
+.header_logo img {
+  width: 139px;
+  height: 30px;
+}
+.header_navigation {
+  display: flex;
+  padding-top: 9px;
+}
+.header li a {
+  color: #013a4c;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 32px;
+  text-decoration: none;
+  padding-top: 30px;
+}
+.header_localization img {
+  width: 30px;
+  height: 30px;
+}

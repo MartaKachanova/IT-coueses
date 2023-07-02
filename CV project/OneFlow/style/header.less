@@ -1,0 +1,31 @@
+@import "./variables.less";
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-family: @titleFontFamily;
+    background: @white;
+    padding: 30px 26px 30px 48px;
+    &_logo img{
+        width: 139px;
+        height: 30px;
+    }
+    &_navigation{
+        display: flex;
+        padding-top: 9px;
+    }
+    li a{
+        color: @blue;
+        font-family: @textFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 32px;
+        text-decoration: none;
+        padding-top: 30px;
+    }
+    &_localization img {
+        width: 30px;
+        height: 30px;
+      }
+  }

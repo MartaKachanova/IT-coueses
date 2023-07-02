@@ -1,0 +1,91 @@
+.main_btn {
+  padding: 20px 79px 19px 78px;
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #d9d9d9;
+  font-style: normal;
+  border-radius: 82.834px;
+  font-weight: bold;
+}
+.main_btn:hover {
+  background: #121517;
+  border-radius: 82.834px;
+  color: #d9d9d9;
+}
+.more_btn {
+  padding: 20px 54px;
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  border-radius: 82.834px;
+  color: #d9d9d9;
+  font-weight: bold;
+}
+.more_btn:hover {
+  background: #121517;
+  border-radius: 82.834px;
+  color: #d9d9d9;
+}
+.weMake_content_btn {
+  position: relative;
+  margin-top: -35%;
+  margin-left: 15%;
+  z-index: 1;
+  padding: 20px 42px 20px 70px;
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  color: #d9d9d9;
+  font-style: normal;
+  border-radius: 82.834px;
+  font-weight: bold;
+}
+.weMake_content_btn::before {
+  content: url(../img/triangle.svg);
+  position: relative;
+  top: 4px;
+  right: 10px;
+}
+.weMake_content_btn:hover {
+  background: #121517;
+  border-radius: 82.834px;
+  color: #d9d9d9;
+}
+.buy_card_btn {
+  width: 186px;
+  height: 54px;
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+  font-family: 'Montserrat';
+  font-weight: 639;
+  font-size: 17.3023px;
+  line-height: 146.47%;
+  letter-spacing: -0.02em;
+  color: #d9d9d9;
+  font-style: normal;
+  border-radius: 82.834px;
+  font-weight: bold;
+  margin-bottom: 33px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.buy_card_btn:hover {
+  background: #121517;
+  border-radius: 82.834px;
+  color: #d9d9d9;
+}
+.buy_btn_arrow {
+  background: #101010;
+  width: 55px;
+  height: 55px;
+  border-radius: 19.1685px;
+  border-color: #35C66B;
+  margin-top: 250px;
+}

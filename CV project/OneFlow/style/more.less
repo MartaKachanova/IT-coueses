@@ -1,0 +1,54 @@
+@import "./variables.less";
+
+.more {
+  padding-top: 303px;
+  padding-bottom: 144px;
+  &_title {
+    font-family: @titleFontFamily;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.4px;
+    color: @blue;
+    padding-left: 144px;
+    padding-bottom: 49px;
+  }
+  &_cards {
+    display: flex;
+    width: 1152px;
+    padding-left: 144px;
+    &_card {
+      width: 576px;
+      height: 540px;
+      margin-right: 32px;
+      &_img {
+        width: 560px;
+        height: 315px;
+        background-size: cover;
+        border-radius: 8px;
+      }
+      &_title {
+        font-family: @textFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: @blue;
+        margin-top: 18px;
+      }
+      &_content {
+        font-family: @textFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: @blue;
+        margin-top: 19px;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import "./variables.less";
+.main {
+  background: url("../img/main.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 850px;
+  &_content {
+    padding-top: 210px;
+    padding-left: 144px;
+    &_title {
+      font-family: @titleFontFamily;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 76px;
+      line-height: 78px;
+      letter-spacing: 2px;
+
+      color: @blue;
+      margin-bottom: 31px;
+    }
+    &_text {
+      font-family: @textFontFamily;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      color: @blue;
+      margin-bottom: 25px;
+    }
+  }
+}

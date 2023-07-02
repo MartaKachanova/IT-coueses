@@ -1,0 +1,85 @@
+@import "./variables.less";
+
+.feedback {
+  margin-bottom: 263px;
+  &_title {
+    font-family: @titleFontFamily;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.4px;
+    color: @blue;
+    margin-top: 127px;
+    padding-left: 144px;
+  }
+  &_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 14px;
+    padding-left: 144px;
+    padding-top: 57px;
+
+    &_card {
+      width: 375px;
+      height: 446px;
+      font-family: @textFontFamily;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      color: @blue;
+      font-size: 16px;
+      line-height: 22px;
+      border: 1px solid #d6dfe2;
+      border-radius: 8px;
+      padding-left: 33px;
+
+      &_text {
+        font-family: @textFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: @blue;
+        margin-top: 66px;
+        width: 308px;
+        padding-bottom: 18px;
+      }
+      &_less_height{
+        font-family: @textFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #89285b;
+        padding-bottom: 75px;
+      }
+      &_more_height {
+        font-family: @textFontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #89285b;
+        padding-bottom: 99px;
+      }
+    }
+  }
+  &_photo {
+    display: flex;
+    img {
+      width: 48px;
+      height: 48px;
+      padding-right: 16px;
+    }
+    &_text {
+      font-family: @textFontFamily;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: @blue;
+    }
+  }
+}
