@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header class="header">
+    <header className="header">
       <div className="container">
         <div className="header__container">
           <Link to="/">

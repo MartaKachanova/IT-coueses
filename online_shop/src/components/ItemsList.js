@@ -1,4 +1,10 @@
+import { useSelector } from 'react-redux';
+
 export default function ItemsList() {
+  
+  const products = useSelector((state) => state.products.value)
+  console.log(products);
+  
   return (
     <section className="category" data-name="Boat">
       <h2>Boat</h2>
