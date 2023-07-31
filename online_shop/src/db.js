@@ -6,7 +6,7 @@ const PRODUCTS = [
       price: 30000,
       sale: true,
       salePercent: 2,
-      categories: ['Boat']
+      categories: ['Boat'],
     },
     {
       id: 2,
