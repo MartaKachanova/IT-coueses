@@ -10,6 +10,7 @@ export const accountSlice = createSlice({
       status: false,
     },
   },
+  
   reducers: {
     logout: (state) => {
       state.value = {
