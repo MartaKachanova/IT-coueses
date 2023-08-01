@@ -13,7 +13,7 @@ export const accountSlice = createSlice({
   reducers: {
     logout: (state) => {
       state.value = {
-        name: "",
+        name: "",git 
         email: "",
         favourites: [],
         status: false,
